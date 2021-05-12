@@ -14,6 +14,8 @@ namespace WebApplication1
         {
             name.Text = Session["name"].ToString();
             number.Text = "目前線上人數:"+ Application["count"];
+
+            //github test
         }
 
         protected void sendBtn_Click(object sender, EventArgs e)
